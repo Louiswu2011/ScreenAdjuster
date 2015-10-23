@@ -139,10 +139,10 @@ public class SetResolutions extends AppCompatActivity {
             @Override
             public void run() {
                 if(reboot){
-                    final String[] cmd=new String[]{"su","wm size "+reso,"wm dpi "+dpi,"reboot"};
+                    final String[] cmd=new String[]{"su","wm size "+reso,"wm density "+dpi,"reboot"};
                     ShellUtils.execCommand(cmd,true);
                 }else{
-                    final String[] cmd=new String[]{"su","wm size "+reso,"wm dpi "+dpi};
+                    final String[] cmd=new String[]{"su","wm size "+reso,"wm density "+dpi};
                     ShellUtils.execCommand(cmd,true);
                 }
 
