@@ -61,4 +61,6 @@
 
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_set_resolutions">Set Resolutions</string>
+    <string name="title_activity_swipe">Screen Adjuster</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
