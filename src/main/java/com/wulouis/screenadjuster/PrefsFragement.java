@@ -31,6 +31,7 @@ public class PrefsFragement extends PreferenceFragment {
                     }
                 });
                 builder.show();
+                break;
             }
             case "Disclaimer":
             {
@@ -43,6 +44,7 @@ public class PrefsFragement extends PreferenceFragment {
                     }
                 });
                 builder.show();
+                break;
             }
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
